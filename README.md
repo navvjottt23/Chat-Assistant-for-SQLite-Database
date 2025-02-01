@@ -58,16 +58,3 @@ Enter your query in the input box and click "Send".
 
 The chatbot will process your query and display the response in the chat window.
 
-# Project Structure
-
-sqlite-chat-assistant/
-├── app.py                # Flask backend
-├── setup_database.py     # Script to create and populate the database
-├── company.db            # SQLite database file
-├── templates/            # HTML templates
-│   └── index.html        # Chatbot frontend
-├── static/               # Static files (CSS, JS, images)
-│   └── styles.css        # Optional: CSS file for styling
-├── requirements.txt      # Python dependencies
-├── Procfile              # For Railway deployment
-└── README.md             # Project documentation
